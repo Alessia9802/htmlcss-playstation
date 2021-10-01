@@ -21,132 +21,101 @@
   <body>
     <header>
       <!-- header -->
-      <div class="container-fluid
-            black
-            d-flex
-            justify-content-end !direction !spacing col">
-           <img class="logo p-2" src="./img/sony_logo.svg" alt="">
-      </div>
-      <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-outline-success" type="submit">
-                    Search
-                  </button>
-                </form>
-              </div>
+            <div class="black p-2 d-flex justify-content-end">
+              <img class="logo" src="./img/sony_logo.svg" alt="">
             </div>
-          </nav>
-      </div>
+            <!-- menu navbar -->
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+         </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+            </nav>
+           </div>
     </header>
     <main>
       <!-- main -->
 
       <!-- hero image -->
-      <div class="container-fluid !direction !spacing sfondo bg_hero p-2 ">
-        <div class="container p-2">
-        <div class="row">
-          <div class="col  ">
+      
+              <div class="bg_hero pt">
               <img src="./img/returnal-hero-banner-logo.png" class="img-fluid returnal" alt="...">
-          </div>
-          
-         <div class="col white">
-           <h1>Rompi il ghiaccio</h1>
-         </div>
-
-         <div class="col white">
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente cupiditate quaerat necessitatibus quidem ut, ipsam obcaecati unde incidunt impedit?</p>
-         </div>
-
-         <div class="col">
-           <a class="btn btn-danger btn-sm " href="#"   role="button">Link</a>
-         </div>
-        </div>
-        </div>
-      </div>
+              <h1 class="text-white">Rompi il ghiaccio</h1>
+              <p class="text-white w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente cupiditate quaerat necessitatibus quidem ut, ipsam obcaecati unde incidunt impedit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis quae quaerat cumque optio incidunt, temporibus laudantium eos ratione nemo dolor animi error veniam enim ut aspernatur veritatis asperiores harum.
+              </p>
+              <a class="btn btn-danger btn-sm " href="#"   role="button">Link</a>
+              </div>
       
       <!-- card -->
-      <div class="container-fluid !direction !spacing sfondo">
-        <div class="container !direction !spacing">
-          <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+          <div class="row">
             <div class="col colore ">
                 <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="img-thumbnail" alt="...">
             </div>
             <div class="col colore ">
-                <img src="..." class="img-thumbnail" alt="...">
+                <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-thumbnail" alt="...">
             </div>
             <div class="col colore ">
-                <img src="..." class="img-thumbnail" alt="...">
+                <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-thumbnail" alt="...">
             </div>
             <div class="col colore ">
-                <img src="..." class="img-thumbnail" alt="...">
+                <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-thumbnail" alt="...">
             </div>
             <div class="col colore ">
-                <img src="..." class="img-thumbnail" alt="...">
+                <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-thumbnail" alt="...">
             </div>
             <div class="col colore ">
-                <img src="..." class="img-thumbnail" alt="...">
+                <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-thumbnail" alt="...">
             </div>
           </div>
 
-        </div>
-      </div>
+         
+       <!-- Intestazione -->  
+       
+       <section class="play text-center">
+         <div class="intestazione mb-4">
+           <p>Play has no limits</p>
+           <h1>Ecco la Playstation 5</h1>
+           <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+         </div>
+       </section>
+
+       <section class="console_image">
+         
+       </section>
+
+        
+      
     </main>
     <footer>
       <!-- footer -->
