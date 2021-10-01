@@ -5,16 +5,16 @@
 }
 
 .ms-1 {
-  margin-left: ($spacer * 0.25) !important;
+  margin-left: 0.25rem !important;
 }
 
 .px-2 {
-  padding-left: ($spacer * 0.5) !important;
-  padding-right: ($spacer * 0.5) !important;
+  padding-left: 0.5 !important;
+  padding-right: 0.5 !important;
 }
 
 .p-3 {
-  padding: $spacer !important;
+  padding: 0.5 !important;
 }
 
 .pb {
@@ -22,6 +22,14 @@
 }
 
 /* /utility */
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
 
 .colore {
   background-color: blue;
@@ -37,6 +45,7 @@
 
 .bg_hero {
   background-image: url(../img/jumbo-bg.png);
+  background-position: center;
 }
 
 .returnal {
