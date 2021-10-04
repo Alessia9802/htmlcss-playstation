@@ -125,3 +125,11 @@ body {
 .now {
   width: 400px;
 }
+
+.nav-item a {
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+}
