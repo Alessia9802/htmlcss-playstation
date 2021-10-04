@@ -1,5 +1,14 @@
 /* utility */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .mt-0 {
   margin-top: 10rem !important;
 }
@@ -47,11 +56,64 @@
   width: 100px;
 }
 
-.bg_hero {
-  background-image: url(../img/jumbo-bg.png);
-  background-position: center;
+.chevron {
+  width: 20px;
+  padding-left: 0.5rem;
+}
+
+.accedi {
+  background-color: #363636;
+  color: white !important;
+}
+
+.sold {
+  background-color: red;
+  color: white !important;
 }
 
 .returnal {
-  width: 20%;
+  width: 300px;
+}
+
+.bg_hero {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quadro {
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+
+.cerchio {
+  padding: 0.1rem;
+  border: 2px solid rgb(0, 26, 255);
+}
+
+.btn-radius {
+  border-radius: 50px;
+}
+
+.b_radius {
+  border-radius: 20px;
+}
+
+.filtro {
+  filter: opacity(0.5);
+}
+
+.dispositivi img {
+  width: 100px;
+}
+
+.play5 {
+  border-bottom: 1px solid blue;
+}
+
+.bg_jump {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
