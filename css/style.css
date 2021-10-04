@@ -102,6 +102,7 @@ body {
 
 .filtro {
   filter: opacity(0.5);
+  transition: all 1s;
 }
 
 .dispositivi img {
@@ -132,4 +133,47 @@ body {
 
 .underline {
   text-decoration: underline;
+}
+
+/* Hover effetcs */
+
+.navbar-nav span:hover {
+  color: rgb(0, 102, 255);
+}
+
+.chevron:hover {
+  width: 20px;
+  padding-left: 0.5rem;
+  display: none;
+}
+
+.chevron_blue {
+  width: 20px;
+  padding-left: 0.5rem;
+  display: none;
+}
+
+.chevron_blue:hover {
+  width: 20px;
+  padding-left: 0.5rem;
+}
+
+.rel {
+  transition: all 1.5s ease 0s;
+  position: relative;
+}
+
+.quadro:hover {
+  width: 100px;
+  position: absolute;
+  bottom: -1px;
+}
+
+.filtro:hover {
+  filter: none;
+}
+
+.btn-radius:hover {
+  border-radius: 50px;
+  border: 3px solid white;
 }
