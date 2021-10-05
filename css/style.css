@@ -159,15 +159,9 @@ a:hover .chevron_blue {
   display: inline-block;
 }
 
-.rel {
-  transition: all 1.5s ease 0s;
-  position: relative;
-}
-
 .quadro:hover {
-  width: 100px;
-  position: absolute;
-  bottom: -1px;
+  transition: all 1.5s;
+  transform: translateY(-1rem);
 }
 
 .filtro:hover {
@@ -177,6 +171,11 @@ a:hover .chevron_blue {
 .btn-radius:hover {
   border-radius: 50px;
   border: 3px solid white;
+}
+
+.pay_now:hover {
+  padding: 1rem;
+  border: 2px solid rgb(250, 239, 239);
 }
 
 /******** Responsive ********/
