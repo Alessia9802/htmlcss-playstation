@@ -77,8 +77,14 @@ body {
 
 .bg_hero {
   background-image: url(../img/jumbo-bg.png);
+  margin-top: 70px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  padding-top: 2rem;
 }
 
 .quadro {
